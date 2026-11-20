@@ -1,0 +1,26 @@
+{
+  "wood": {
+    "buyPrice": 100,
+    "sellPrice": 80
+  },
+  "brick": {
+    "buyPrice": 150,
+    "sellPrice": 120
+  },
+  "stone": {
+    "buyPrice": 200,
+    "sellPrice": 160
+  },
+  "steel": {
+    "buyPrice": 500,
+    "sellPrice": 400
+  },
+  "iron": {
+    "buyPrice": 300,
+    "sellPrice": 240
+  },
+  "gold": {
+    "buyPrice": 1000,
+    "sellPrice": 800
+  }
+}
