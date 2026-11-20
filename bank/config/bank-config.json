@@ -1,0 +1,139 @@
+{
+  "economy": {
+    "startingBalance": 10000,
+    "jobs": {
+      "عاطل": {
+        "salary": 500,
+        "levelRequired": 1
+      },
+      "عامل": {
+        "salary": 1500,
+        "levelRequired": 3
+      },
+      "موظف": {
+        "salary": 3500,
+        "levelRequired": 6
+      },
+      "محاسب": {
+        "salary": 7000,
+        "levelRequired": 10
+      },
+      "مهندس": {
+        "salary": 14000,
+        "levelRequired": 15
+      },
+      "طبيب": {
+        "salary": 28000,
+        "levelRequired": 20
+      },
+      "مدير": {
+        "salary": 55000,
+        "levelRequired": 30
+      },
+      "رجل أعمال": {
+        "salary": 120000,
+        "levelRequired": 40
+      }
+    },
+    "experience": {
+      "salary": {
+        "xpMin": 20,
+        "xpMax": 60
+      },
+      "tip": {
+        "xpMin": 10,
+        "xpMax": 40
+      },
+      "luck": {
+        "xpMin": 10,
+        "xpMax": 50
+      },
+      "gamble": {
+        "xpMin": 10,
+        "xpMax": 50
+      },
+      "dice": {
+        "xpMin": 10,
+        "xpMax": 40
+      },
+      "roulette": {
+        "xpMin": 10,
+        "xpMax": 50
+      },
+      "fruits": {
+        "xpMin": 15,
+        "xpMax": 60
+      },
+      "trade": {
+        "xpMin": 15,
+        "xpMax": 60
+      },
+      "rob": {
+        "xpMin": 20,
+        "xpMax": 70
+      },
+      "invest": {
+        "xpMin": 10,
+        "xpMax": 40
+      }
+    },
+    "rewards": {}
+  },
+  "cooldowns": {
+    "salary": 10800000,
+    "tip": 1800000,
+    "luck": 3600000,
+    "gamble": 30000,
+    "dice": 30000,
+    "roulette": 45000,
+    "fruits": 120000,
+    "trade": 120000,
+    "rob": 1800000
+  },
+  "adminSettings": {
+    "winRate": 0.5,
+    "robSuccessRate": 0.4,
+    "transferEnabled": true,
+    "voiceProtectionEnabled": true,
+    "bankChannels": [],
+    "blacklistedUsers": []
+  },
+  "material_definitions": {
+    "wood": {
+      "name": "خشب",
+      "emoji": "🪵",
+      "buyPrice": 100,
+      "sellPrice": 80
+    },
+    "brick": {
+      "name": "طوب",
+      "emoji": "🧱",
+      "buyPrice": 150,
+      "sellPrice": 120
+    },
+    "stone": {
+      "name": "حجر",
+      "emoji": "🪨",
+      "buyPrice": 200,
+      "sellPrice": 160
+    },
+    "steel": {
+      "name": "فولاذ",
+      "emoji": "⚙️",
+      "buyPrice": 500,
+      "sellPrice": 400
+    },
+    "iron": {
+      "name": "حديد",
+      "emoji": "⛓️",
+      "buyPrice": 300,
+      "sellPrice": 240
+    },
+    "gold": {
+      "name": "ذهب",
+      "emoji": "🥇",
+      "buyPrice": 1000,
+      "sellPrice": 800
+    }
+  }
+}
