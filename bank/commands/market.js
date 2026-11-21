@@ -6,7 +6,7 @@
 
 const { AttachmentBuilder, EmbedBuilder, ActionRowBuilder, StringSelectMenuBuilder } = require('discord.js');
 const { getUser, formatMoney, getMaterialName, getMaterialEmoji, getMaterialPrices, checkLevelUpAndJob } = require('../utils/helpers');
-const { createMarketImage } = require('../utils/canvas');
+const { createMarketImage } = require('../utils/marketCard');
 const fs = require('fs');
 const path = require('path');
 
@@ -35,7 +35,7 @@ module.exports = {
       }
 
       const user = await getUser(message.author.id, message.guild.id);
-      const imageBuffer = await createMarketImage(user, message.author);
+      const imageBuffer = await createMarketImage(user, message.author, message.guild);
       const attachment = new AttachmentBuilder(imageBuffer, { name: 'market.png' });
       const buyOptions = [];
       const sellOptions = [];
